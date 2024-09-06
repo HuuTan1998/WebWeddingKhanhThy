@@ -5,7 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -9761,4 +9761,37 @@ a.text-dark:hover, a.text-dark:focus {
   #event .border-right {
     border-right: none !important;
   }
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #121F38;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table-container {
+  max-height: 300px;
+  overflow-y: auto; 
+  border: 1px solid #ddd; 
+}
+.music {
+  position: fixed;
+  bottom: 30px;
+  left: 20px;
+  z-index: 999;
+  border-color: #E47A2E;
+}
+
+.icon {
+  font-size: 30px;
+  color: #E47A2E;
 }
